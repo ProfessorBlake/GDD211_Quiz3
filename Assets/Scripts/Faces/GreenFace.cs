@@ -4,9 +4,5 @@ using UnityEngine;
 
 public class GreenFace : Enemy
 {
-	public override void TakeDamage()
-	{
-		base.TakeDamage();
-		transform.localScale *= 0.75f;
-	}
+	//Scale sprite with: transform.localScale *= 0.5f;
 }
